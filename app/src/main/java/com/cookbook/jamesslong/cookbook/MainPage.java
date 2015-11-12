@@ -48,7 +48,7 @@ public class MainPage extends ActionBarActivity implements NavigationDrawerFragm
         int currentAPIVersion = Build.VERSION.SDK_INT;
         if(currentAPIVersion >=Build.VERSION_CODES.LOLLIPOP){
             Window w = getWindow();
-            w.setStatusBarColor(getResources().getColor(R.color.android_dark_blue));
+            w.setStatusBarColor(getResources().getColor(R.color.dark_brown));
         }
     }
 
@@ -107,7 +107,7 @@ public class MainPage extends ActionBarActivity implements NavigationDrawerFragm
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_search) {
             return true;
         }
 
